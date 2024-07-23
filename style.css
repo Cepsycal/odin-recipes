@@ -1,0 +1,41 @@
+ h1 {
+    color:orange;
+    font-size:30;
+    text-align:center;
+}
+
+ p {
+    font-size:16px;
+}
+
+img {
+    height: 310px;
+    display:block;
+    max-width:fit-content;
+    margin-inline:auto;
+}
+
+.burger,
+.cream,
+.nashville {
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    border:1px solid black;
+}
+
+.burger {
+    background-color:rgb(146, 75, 34);
+}
+
+.cream {
+    background-color:grey;
+}
+
+.nashville {
+    background-color:darkred
+}
+.container {
+    border:1px solid orange;
+}
+

@@ -1,11 +1,88 @@
+ .index {
+    text-align:center;
+ }
+
+ .burger,
+ .cream,
+ .nashville,
+ .index {
+    background-color:antiquewhite;
+ }
+
+ .introduction { 
+    border:5px solid black;
+ }
+
+.ingredients {
+    border: 5px solid black;
+    display:inline-block;
+    text-align:left;
+    padding:10px 50px;
+    margin:30px;
+    margin-inline:30%;
+    line-height:1.5;
+}
+
+.instructions {
+    border: 5px solid black;
+    display:inline-block;
+    text-align:left;
+    padding:10px 50px;
+    margin:30px;
+    line-height:1.5;
+}
+
+.burger .introduction,
+.burger .ingredients,
+.burger .instructions {
+    background-color:rgb(146, 75, 34);
+}
+
+.cream .introduction,
+.cream .ingredients,
+.cream .instructions,
+.cream .tips{
+    background-color:#d29ea2;
+    border:5px solid black;
+    padding:0px 15px;
+}
+
+.nashville .introduction,
+.nashville .ingredients,
+.nashville .instructions {
+    background-color:darkred;
+    color:black;
+}
+
+
+ .index .container {
+    border: 2px solid black;
+    padding-bottom: 25px;
+ }
+
  h1 {
+    text-align:center;
+ }
+.burger {
+    text-align: center;
+}
+ .burger h1,
+ .burger h1,
+ .burger h1 {
+    display:inline-block;
+    margin: 20px;
+    border: 4px solid black;
+    padding: 10px;
+ }
+
+ h1.index {
     color:orange;
     font-size:30;
-    text-align:center;
 }
 
  p {
     font-size:16px;
+    text-align:center
 }
 
 img {
@@ -15,27 +92,38 @@ img {
     margin-inline:auto;
 }
 
-.burger,
-.cream,
-.nashville {
+.burger.link,
+.cream.link,
+.nashville.link {
     color:white;
     font-size:20px;
     text-decoration:none;
-    border:1px solid black;
+    border:2px solid black;
+    padding: 5px;
 }
 
-.burger {
+.burger.link {
     background-color:rgb(146, 75, 34);
 }
 
-.cream {
+.cream.link {
     background-color:grey;
 }
 
-.nashville {
+.nashville.link {
     background-color:darkred
 }
-.container {
-    border:1px solid orange;
+
+.enjoy {
+    font-size: 20px;
+    line-height: 2;
 }
 
+.old_versions {
+    color:black;
+    font-size:20px;
+    text-decoration:none;
+    border:2px solid black;
+    padding: 5px;
+    background-color: darkorange
+}

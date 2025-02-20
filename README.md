@@ -1,2 +1,2 @@
-Rock Paper Scissors:
- A computer game using Javascript & the google console.
+Recipe Website:
+ A website that uses HTML & CSS to show recipes.
